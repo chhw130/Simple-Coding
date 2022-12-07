@@ -1,0 +1,48 @@
+body {
+  background: url("./images/bg.jpg");
+}
+
+div > img {
+  width: 60px;
+  height: 65%;
+  border: 3px solid white;
+  background-color: #595959;
+  transform: skew(-12deg);
+  border-radius: 10px;
+  margin-top: 7px;
+  margin-right: 5px;
+}
+div > img:hover {
+  background-color: #ffbb00;
+  transform: scale(1.4) skew(-12deg);
+  transition: all 0.1s linear;
+}
+
+.container {
+  text-align: center;
+  margin-top: 80px;
+}
+
+.logo {
+  margin: 50px auto;
+  display: block;
+  width: 230px;
+  height: 130px;
+  border: none;
+  background-color: transparent;
+  transform: skew(0);
+}
+/* 
+.shape{
+    width: 60px;
+    height: 65px;
+    border : 3px solid white;
+    background-color: #595959;
+    transform: skew(30deg);
+    border-radius: 10px;
+}
+.shape img{
+    transform: skew(-30deg);
+    position: absolute;
+
+  } */
